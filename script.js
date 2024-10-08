@@ -37,27 +37,37 @@ function playRound(compChoice, playerChoice) {
 let userChoice1 = prompt("Choose rock, paper, or scissors").toLowerCase();
 let computerChoice1 = getComputerChoice();
 playRound(computerChoice1, userChoice1);
-console.log(`Scores after Round 1: ${humanScore}, Computer: ${computerScore}`);
+console.log(
+  `Scores after Round 1: Human: ${humanScore}, Computer: ${computerScore}`
+);
 
 let userChoice2 = prompt("Choose rock, paper, or scissors").toLowerCase();
 let computerChoice2 = getComputerChoice();
 playRound(computerChoice2, userChoice2);
-console.log(`Scores after Round 2: ${humanScore}, Computer: ${computerScore}`);
+console.log(
+  `Scores after Round 2: Human: ${humanScore}, Computer: ${computerScore}`
+);
 
 let userChoice3 = prompt("Choose rock, paper, or scissors").toLowerCase();
 let computerChoice3 = getComputerChoice();
 playRound(computerChoice3, userChoice3);
-console.log(`Scores after Round 3: ${humanScore}, Computer: ${computerScore}`);
+console.log(
+  `Scores after Round 3: Human: ${humanScore}, Computer: ${computerScore}`
+);
 
 let userChoice4 = prompt("Choose rock, paper, or scissors").toLowerCase();
 let computerChoice4 = getComputerChoice();
 playRound(computerChoice4, userChoice4);
-console.log(`Scores after Round 4: ${humanScore}, Computer: ${computerScore}`);
+console.log(
+  `Scores after Round 4: Human: ${humanScore}, Computer: ${computerScore}`
+);
 
 let userChoice5 = prompt("Choose rock, paper, or scissors").toLowerCase();
 let computerChoice5 = getComputerChoice();
 playRound(computerChoice5, userChoice5);
-console.log(`Scores after Round 5: ${humanScore}, Computer: ${computerScore}`);
+console.log(
+  `Scores after Round 5: Human: ${humanScore}, Computer: ${computerScore}`
+);
 
 function checkScore(computer, human) {
   if (human < computer) {
